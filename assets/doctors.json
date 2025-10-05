@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Ramesh Mehta",
+    "specialization": "Cardiologist",
+    "experience": "12 years",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Anjali Gupta",
+    "specialization": "Dermatologist",
+    "experience": "8 years",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Arjun Kapoor",
+    "specialization": "Neurologist",
+    "experience": "10 years",
+    "status": "inactive"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Meena Rao",
+    "specialization": "Pediatrician",
+    "experience": "15 years",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Vikram Shah",
+    "specialization": "Orthopedic Surgeon",
+    "experience": "20 years",
+    "status": "inactive"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Neha Bansal",
+    "specialization": "Gynecologist",
+    "experience": "11 years",
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Rajiv Sinha",
+    "specialization": "Oncologist",
+    "experience": "14 years",
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Pooja Desai",
+    "specialization": "Endocrinologist",
+    "experience": "9 years",
+    "status": "inactive"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Aditya Narayan",
+    "specialization": "Psychiatrist",
+    "experience": "6 years",
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Sonia Arora",
+    "specialization": "ENT Specialist",
+    "experience": "13 years",
+    "status": "active"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "specialization": "Cardiologist",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "specialization": "Dermatologist",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "specialization": "Neurologist",
+    "status": "inactive"
+  },
+  {
+    "id": 4,
+    "specialization": "Pediatrician",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "specialization": "Oncologist",
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "specialization": "Psychiatrist",
+    "status": "inactive"
+  },
+  {
+    "id": 7,
+    "specialization": "Orthopedic Surgeon",
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "specialization": "Endocrinologist",
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "specialization": "Gastroenterologist",
+    "status": "inactive"
+  },
+  {
+    "id": 10,
+    "specialization": "Rheumatologist",
+    "status": "active"
+  }
+]
