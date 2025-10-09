@@ -11,8 +11,12 @@ const categoryRoutes = require('./routes/categoryRoutes');
 
 const app = express();
 
-app.use(cors());
-app.options(/.*/, cors());
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true
+}));
 
 app.use(express.json());
 
