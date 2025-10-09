@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors');
 const authRoutes = require('./routes/authRoutes');
 const logger = require('./middlewares/logger');
 const errorHandler = require('./middlewares/errorHandler');
@@ -10,14 +11,15 @@ const categoryRoutes = require('./routes/categoryRoutes');
 
 const app = express();
 
+app.use(cors());
+app.options('*', cors());
+
 app.use(express.json());
 
-// Dev HTTP logging
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 
-// Custom logger
 app.use(logger);
 
 app.use('/api/v1/auth', authRoutes);
@@ -25,8 +27,6 @@ app.use('/api/v1/doctors', doctorRoutes);
 app.use('/api/v1/categories', categoryRoutes);
 app.use('/api/v1/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-
-// Error handler
 app.use(errorHandler);
 
 module.exports = app;
