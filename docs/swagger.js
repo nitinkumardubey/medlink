@@ -1,5 +1,11 @@
 const swaggerJsdoc = require('swagger-jsdoc');
 
+const isProduction = process.env.NODE_ENV === 'development';
+
+const serverUrl = isProduction
+  ? 'https://medlink-oyqm.onrender.com'
+  : 'http://localhost:5000';
+
 const options = {
   definition: {
     openapi: '3.0.0',
@@ -10,7 +16,8 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:5000',
+        url: serverUrl,
+        description: isProduction ? 'Production (Render)' : 'Local Development',
       },
     ],
     components: {
